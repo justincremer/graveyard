@@ -1,0 +1,23 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<section class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <app-add-update-commands (commandCreated)="createUpdateCommand($event)" [command]="currentCommand"></app-add-update-commands>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <app-commands-list [commands]="commands" (editClicked)="editCommand($event)" (newClicked)="newCommand()" (recordDeleted)="deleteCommand($event)"></app-commands-list>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,19 @@
+<div>
+    <h2 *ngIf="!command || command.id === undefined">Add command</h2>
+    <h2 *ngIf="command && command.id !== undefined">Update command</h2>
+    <form>
+      <div class="form-group">
+        <label for="title-input">Name:</label>
+        <input name="name" type="text" id="desc-input" [(ngModel)]="command.name" class="form-control" />
+      </div>
+      <div class="form-group">
+        <label for="desc-input">Description:</label>
+        <textarea name="description" type="text" id="desc-input" [(ngModel)]="command.description" class="form-control" ></textarea>
+      </div>
+      <div class="form-group">
+        <label for="desc-input">Platform:</label>
+        <textarea name="platform" type="text" id="desc-input" [(ngModel)]="command.platform" class="form-control" ></textarea>
+      </div>
+      <button type="button" class="btn btn-primary" (click)="addUpdateCommand($event);">Save</button>
+    </form>
+</div>

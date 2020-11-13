@@ -1,0 +1,22 @@
+<table class="table mt-5">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+        <th scope="col">Platform</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="commands?.length == 0"><td>No data</td></tr>
+      <tr *ngFor="let command of commands">
+        <td>{{ command.name }}</td>
+        <td>{{ command.description }}</td>
+        <td>{{ command.platform }}</td>
+        <td>
+          <a href="#" class="m-1" (click)="edit(command)">Edit</a>
+          <a href="#" class="m-2" (click)="delete(command)">Delete</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="button" class="btn btn-primary mb-2" (click)="new()">New</button>

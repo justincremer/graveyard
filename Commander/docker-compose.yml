@@ -1,0 +1,18 @@
+version: '3'
+services:
+    commander-db:
+        image: microsoft/mssql-server-linux
+        environment: 
+            ACCEPT_EULA: "Y"
+            SA_PASSWORD: "7&7506Bucko"
+            MSSQL_PID: Express
+        ports: 
+            - "1433:1433"
+    commander-api:
+        build: ./Commander-Api
+        ports:
+            - "5001:80"
+    commander-view:
+        build: ./Commander-View
+        ports: 
+            - "4200:80"

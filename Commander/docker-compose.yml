@@ -4,7 +4,7 @@ services:
         image: microsoft/mssql-server-linux
         environment: 
             ACCEPT_EULA: "Y"
-            SA_PASSWORD: "7&7506Bucko"
+            SA_PASSWORD: "CHANGE ME"
             MSSQL_PID: Express
         ports: 
             - "1433:1433"

@@ -1,0 +1,1 @@
+A small web app written in Angular, with a C# backend, accessing an sql server -- all hosted in docker containers.  The application stores common single line commands with a description and application tag.  

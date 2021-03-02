@@ -1,0 +1,32 @@
+# # To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+# # root=true
+
+# #### Core EditorConfig Options ####
+
+# # Indentation and spacing
+# indent_size = 4
+# indent_style = tab
+# tab_width = 4
+
+# # New line preferences
+# end_of_line = crlf
+# insert_final_newline = false
+
+# # All files
+# [*]
+# charset = utf-8
+# end_of_line = lf
+# insert_final_newline = true
+# trim_trailing_whitespace = true
+# max_line_length = 120
+
+# # [{.prettierrc, package.json, .vscode/**.json, **.{yml,yaml}}]
+# # indent_style = space
+# # indent_size = 2
+# quote_type = double
+
+# # [{src,scripts}/**.{ts,json,js}]
+# indent_style = tab
+# indent_size = 4
+# quote_type = single
+# trim_trailing_whitespace = true

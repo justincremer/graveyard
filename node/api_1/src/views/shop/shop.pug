@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title #{pageTitle}
+        link(rel="stylesheet", href="/css/main.css")
+        link(rel="stylesheet", href="/css/product.css")
+    body
+        header.main-header
+            nav.main-header_nav
+                ul.main-header_item-list 
+                    li.main-header_item
+                        a.active(href="/shop") Shop
+                    li.main-header_item
+                        a(href="/shop/add-product") Add Product
+        
+        main
+            if products.length > 0
+                .grid
+                    each p in products
+                        article.card.product-item
+                            header.card_header
+                                h1.product_title #{p.title}
+                            div.card_content
+                                h2.product_price $19.99
+                                p.product_description A real good book
+                            .card_actions
+                                button.btn Add to Cart
+            else
+                h1 No Products

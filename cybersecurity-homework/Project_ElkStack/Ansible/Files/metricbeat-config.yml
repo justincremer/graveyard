@@ -1,0 +1,17 @@
+# Location :: Jumpbox -> Ansible-Container
+
+metricbeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+setup.template.settings:
+  index.number_of_shards: 1
+  index.codec: best_compression
+setup.kibana:
+  host: "10.0.1.4:5601"    # Replace with subnet address of your elk vm
+output.elasticsearch:
+  hosts: ["10.0.1.4:9200"] # Replace with subnet address of your elk vm
+  username: "elastic"
+  password: "changeme"
+processors:
+  - add_host_metadata: ~
+  - add_cloud_metadata: ~

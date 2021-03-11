@@ -1,0 +1,11 @@
+const BASE_URL = process.env.REACT_APP_BASE_URL;
+const CLIENT_ID = process.env.REACT_APP_CLICKUP_CLIENT_ID;
+const CLIENT_SECRET = process.env.REACT_APP_CLICKUP_CLIENT_SECRET;
+const COOKIE_SECRET = process.env.REACT_APP_COOKIE_SECRET;
+
+module.exports = {
+	BASE_URL,
+	CLIENT_ID,
+	CLIENT_SECRET,
+	COOKIE_SECRET,
+};

@@ -1,0 +1,41 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.semi": true,
+    "prettier.trailingComma": "all",
+
+    "[typescript]": {
+        "editor.tabSize": 4,
+        "editor.tabCompletion": "on",
+        "editor.wordWrapColumn": 120,
+        "editor.autoClosingBrackets": "always",
+    },
+    
+    "[javascript]": {
+        "editor.tabSize": 4,
+        "editor.tabCompletion": "on",
+        "editor.wordWrapColumn": 120,
+        "editor.autoClosingBrackets": "always",
+    },
+
+    "[javascriptreact]": {
+        
+    },
+
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true,
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 4,
+        "editor.tabCompletion": "on",
+        "editor.autoClosingBrackets": "always",
+    },
+
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.insertSpaces": false
+    }
+}

@@ -1,0 +1,29 @@
+# Location :: Jumpbox -> Ansible-Container
+---
+  - name: Configure Filebeat on Webservers
+    hosts: webservers
+    become: yes
+    tasks:
+
+    - name: Download filebeat
+      command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.4.0-amd64.deb
+
+    - name: Install filebeat
+      command: dpkg -i filebeat-7.4.0-amd64.deb
+
+    - name: Copy config to remote macfilebeat modules enable systemhine
+      copy:
+        src: /etc/ansible/files/filebeat-config.yml
+        dest: /etc/filebeat/filebeat.yml
+
+    - name: Enable system modules
+      command: filebeat modules enable system
+
+    - name: Setup filebeat
+      command: filebeat setup
+
+    - name: Start daemon
+      command: service filebeat start
+
+    - name: Remove .deb file
+      command: rm ~/*.deb

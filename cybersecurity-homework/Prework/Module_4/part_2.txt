@@ -1,0 +1,25 @@
+Network+:
+	- Generally important for any Information Security role, including phsically and cloud based systems
+	- Crucial for IT and SysAdmin roles
+	- Includes hardware configuration, as well as software piping, and virtual maintenance
+
+Security+:
+	- Also important for any form of Information Security role
+	- Relevant in bare metal and virtual domains
+	- Used in IT as well as devops
+
+CEH:
+	- Again, important in IS roles
+	- Includes penetration testing, as well as risk mitigation and managment
+	- General education:
+		- Recon
+		- Gaining access
+		- Enumeration
+		- Maintaining Access
+		- Clearing tracks
+
+CISSP:
+	- An independent IS cert done through ISC^2
+	- Includes auditing, architecting, and analysis
+	- Important for mid-career development
+

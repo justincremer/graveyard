@@ -1,0 +1,53 @@
+The world of free and open source software astounds me: an ecosystem of rich programs, developed and maintained
+without intent, aside from providing a better general purpose computing environment.  Growing up, I stumbled upon
+a Reddit page discussing GNU/Linux, unaware of the vast expanse of frustrated config searches that lied ahead.
+Like so many novice Linux users, I created my first bootable usb, started up my new environment, and immediately,
+irrecoverably, broke my machine -- I was hooked.
+
+Along a shaky computing journey, spent programming, scripting, and failing to hack into my own systems,
+I've been ever leered by the same fundamental question, "how the hell does any of this work?"
+After many years of consideration, one thing has become hauntingly clear - nobody has
+even a resemblance of a clue.  I find this to be beautiful.
+
+In light of my lacking knowledge, I am very excited to become a more competent ethical hacker and programmer,
+in my ventures to navigate the sea of computer science and information systems.  (Referencing my disoriented
+understaning of systems) If operating systems were a history article, networks and server-side system would be
+a history textbook.  Of course penetration testing and analysis are both massively interesting and appealing, but
+mostly, I'm looking forward to gaining some form of an understanding into how networking is orchestrated and how
+servers, for lack of a better word, work.
+
+I have spent my fair share of time on sites like HackTheBox and TryHackMe, realizing each time, that becoming
+a competant hacker requires studying.  Acustomed to digging through StackOverflow boards for other people's
+answers, this, at the time, was upsetting.  I put IT on the backboard for a number of years, but the question,
+"how does any of this work?" has stayed with me.  Now, in the midst of my novice programming years, I've been
+consumed by the same questions I once pushed aside.
+
+Having spent my quarantine digging deeper into complexities of C family languages and functional programming,
+and now working a backend web development internship, I have become utterly turned off from the thought of doing
+any significant programming learning for at least a few months.  Bizzarly enough, after a long afternoon of
+writing integration tests and controllers for work, I still find myself modifying configs and writing scripts
+- I'm back to where I was in my teenage years, just enjoying the small steps into a world of forreign operating
+system programs, most of which were either constructed with or written in the 70's unix commands.  It's fair to say
+the many layered obsurdities of modern computing move me deeply.
+
+I'm very framiliar with Debian and am certainly looking forward to spending time in Kali.  Most of my internship is
+done in Visual Studio on a Windows box; this will be a much welcomed juxtaposition to my daily workflow.  That being
+said, the illusion of simplicity I feel when using a windows machine is clear to me and I have much less of an
+insight into how windows works than I do Linux.  Learning more about Windows' composition and hardening techniques
+will help massively, with what I assume will be a confounded career of mandatory Windows use.
+
+Strange to me is the dockerization and wsl integration of many modern repositories.  I understand the usecase,
+but I too often, in a fit of ignorance and failed troubleshooting sessions, curse modern developers in a rant usually
+containing the line, "why wouldn't they just put this on a Linux box."  Nonetheless, I do not know why they won't
+put 'this' on a Linux box and 'this' is not on a Linux box and I don't understand 'this's infrastructure and that
+scares me.  I would very much like to know how the many 'this's of modern applications practically work, as most
+of my computing hobbies are largely impractical.
+
+I have little assurance of what computing career path I will end up taking, but I am certain that a background in
+IT and security will both, provide me with a much needed landscape of missing system knowledge and open up a world of
+potential career paths unbeknown to me.  Needless to say I am extremly excited to be taking this course, as it
+almost entirely covers topics that are of interest to me.  It's like going to a live show where every artist is
+one you're tirelessly excited to see perform.  I'm unsure if I'll pursue a career in security, though I imagine I
+would quite enjoy it, but mostly I'm taking this course, because it details intersts i've had for many years.  The
+current cost of education (among other things) in the US is disheartening, I'm glad to be taking on debt for 
+something I truely am passionate about.

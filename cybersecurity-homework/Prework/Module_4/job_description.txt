@@ -1,0 +1,6 @@
+Penetration Tester (Remote US) - GoSecure - La Jolla
+
+We are looking for a Penetration Tester to perform various types of security tests for clients. Tests may include:
+wireless assessment, web application, internal network assessment, external network assessment, phishing exercises,
+red team assessment, physical security assessment, code review, mobile application assessment,
+and embedded device assessment.  This position reports to the Director of Pentesting Services.

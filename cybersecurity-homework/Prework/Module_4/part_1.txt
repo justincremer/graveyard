@@ -1,0 +1,57 @@
+## JOB DESCRIPTION ##
+
+Penetration Tester (Remote US) - GoSecure - La Jolla
+
+We are looking for a Penetration Tester to perform various types of security tests for clients. Tests may include:
+wireless assessment, web application, internal network assessment, external network assessment, phishing exercises,
+red team assessment, physical security assessment, code review, mobile application assessment,
+and embedded device assessment.  This position reports to the Director of Pentesting Services.
+
+## TEN TERMS ##
+
+Security Analyst:
+A security analyst is responsible for maintaining the security of a system's data, by analyzing security protocals and
+determining their effectivness and scope.  They are often responsible for providing proper security training within
+organizations.
+
+DevOps:
+DevOps is a set of administrative practices, combining software development and IT operations.  This integrates
+into the agile development workflow, in which progress is continually planned and pushed to ensure quality.
+
+Risk Management:
+Homogenous to the roles of security analysts, risk management entails analayzing systems for vulnerabilities
+and administering preventative actions in order to protect an organizations assets.
+
+Black/White/Gray:
+Black box testing is defined as any testing where the infrastructure of a given system is unknown or 'closed.'  Grey
+box testing is defined as any testing where the infrastructure of a give system is partially available or 'translucent.'
+White box testing is defined as any testing where the infrastructure of a give system is visible in source code or
+'transparent.'
+
+Offense:
+Offense refers to the deployment of ethical hacking and penetration testing to spot system vulnerabilities and weaknesses.
+This is crucial to cybersecuirty teams, as it gives refenrce to malicous intent without inherent risk factors.
+
+Defense:
+In contrast to offense, defense refers to the development of preventative tooling and system monitoring, in a reactive
+approach to ensure the security and longevity of a system's life cycle.
+
+Network Traffic:
+Traffic is defined as the combined throughput of data over a given network.  Understanding network vulnerabilites is
+critical to administrators, as many malicous attacks entail controlling the flow and type of network traffic accross
+a system.  This can be seen flood and slowloris attacks.
+
+Permissions:
+Permissions detail the accesibilty of programs, files, and directories by a given system user or admin.  Commands such
+as 'chmod' modify the permissions of files and directories, crucial to the security of active systems.  Super users
+generally have access to all files on a machine.
+
+Event Logs:
+Event logs are text files where a program or operating system outputs proccess returns and errors in a self documenting
+protocal.  This is important in that it gives developers insight into their system's functionallity and can document
+malicous behavior on a network.
+
+Information Security Auditing:
+Auditing is a procedure which covers the security and preventative efficiency of a database and its endpoints.  This
+is generally done internally by analysts or by external auditing teams.
+

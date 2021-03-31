@@ -2,5 +2,8 @@
   "name": "pleisiosaur-says",
   "version": "1.0.0",
   "main": "src/index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  }
 }

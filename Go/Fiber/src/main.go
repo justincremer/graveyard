@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
 	"github.com/gofiber/fiber/v2"
@@ -8,11 +9,17 @@ import (
 
 func main() {
 	app := fiber.New()
+	count := 0
+
+	app.Use(func(c *fiber.Ctx) error {
+		count++
+		return c.Next()
+	})
 
 	app.Get("/", func(c *fiber.Ctx) error {
-		return c.SendString("Hello, World!")
-	}).Get("/users", func(c *fiber.Ctx) error {
-		return c.SendString("xiuxiu")
+		result := fmt.Sprint("Requests made: ", count, "\n")
+
+		return c.SendString(result)
 	})
 
 	log.Fatal(app.Listen(":8080"))

@@ -1,6 +1,8 @@
 node_modules/
 
 rust/*/target
+*/bin/*
 
 *.o
 *.out
+*.exe
